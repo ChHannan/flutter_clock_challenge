@@ -4,10 +4,12 @@
 
 import 'dart:async';
 
-import 'package:analog_clock/Clock%20Widgets/clock_circles.dart';
 import 'package:analog_clock/Utils/calculations.dart';
-import 'package:analog_clock/Clock%20Widgets/second_circle.dart';
 import 'package:analog_clock/Utils/colors.dart';
+import 'package:analog_clock/clock_widgets/clock_center.dart';
+import 'package:analog_clock/clock_widgets/clock_circles.dart';
+import 'package:analog_clock/clock_widgets/drawn_hand.dart';
+import 'package:analog_clock/clock_widgets/second_circle.dart';
 import 'package:flare_flutter/flare_actor.dart';
 import 'package:flutter_clock_helper/model.dart';
 import 'package:flutter/material.dart';
@@ -15,8 +17,6 @@ import 'package:flutter/semantics.dart';
 import 'package:intl/intl.dart';
 import 'package:vector_math/vector_math_64.dart' show radians;
 
-import 'Clock Widgets/clock_center.dart';
-import 'Clock Widgets/drawn_hand.dart';
 
 /// Total distance traveled by a second or a minute hand, each second or minute,
 /// respectively.
